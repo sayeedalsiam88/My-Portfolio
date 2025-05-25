@@ -1,0 +1,138 @@
+/* style.css */
+body {
+    font-family: 'Times New Roman', Times, serif
+    background-color black
+    text-color white
+    margin 20px
+}
+h3 {
+    color:white-space;
+}
+a {
+    color:blue
+    text-decoration none;
+    margin-right:15px
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+/* Dark mode styling */
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+
+button#darkModeToggle {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button#darkModeToggle:hover {
+  background-color: #004d40;
+}
+
+button#scrollToTop {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+button#scrollToTop:hover {
+  background-color: #004d40;
+}
+body {
+  font-size: 1rem; /* 16px by default */
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* Small devices (mobile phones) */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .connect-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+}
+/* Make social links horizontally aligned with space */
+.connect-links {
+  display: flex;
+  gap: 15px;   /* space between links */
+  flex-wrap: wrap;  /* wrap on smaller screens */
+  justify-content: center; /* center align */
+}
+body {
+  max-width: 1200px;    /* limits max width on big screens */
+  margin: 0 auto;       /* center on bigger screens */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
